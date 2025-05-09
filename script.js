@@ -132,7 +132,7 @@ function updateUI(data) {
 function generateAICommentary(temp, condition, wind) {
     if (condition.includes("Rain")) return "Rainy days are perfect for reflection and tea ☕";
     if (condition.includes("Drizzle")) return "Drizzle brings a refreshing touch to the day 🌧️";
-    if (condition.includes("Clouds")) return "Clouds remind us that even the darkest skies will pass, and the sun is never gone-only hidden. 🌤️";
+    if (condition.includes("Clouds")) return "Cloudy days bring a calm vibe. ☁️";
     if (condition.includes("Thunderstorm")) return "Thunderstorms bring a symphony of nature 🎶";
     if (condition.includes("Thunder")) return "Thunderstorms bring a symphony of nature 🎶";
     if (condition.includes("Fog")) return "Foggy days are perfect for cozy vibes 🌫️";
